@@ -1,0 +1,16 @@
+#include "resource.h"
+
+IDR_MENU MENU
+BEGIN
+  POPUP "Arquivo"
+  BEGIN
+    MENUITEM "Abrir", ID_ARQUIVO_ABRIR
+    MENUITEM "Sair", ID_ARQUIVO_SAIR
+  END
+
+  MENUITEM "Reanalisar", ID_REANALISAR
+
+  MENUITEM "Ajuda", ID_AJUDA
+END
+
+IDI_ICONE ICON "gcmna.ico"
